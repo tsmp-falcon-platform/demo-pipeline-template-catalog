@@ -1,0 +1,9 @@
+version: 1
+type: pipeline-template
+
+name: Simple Pipeline Job
+description: Simple Echo Pipeline
+parameters:
+  - name: NAME
+    type: string
+    displayName: Name to echo
